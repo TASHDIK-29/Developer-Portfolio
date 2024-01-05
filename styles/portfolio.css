@@ -149,3 +149,22 @@ main {
     font-weight: 700;
     line-height: 30px;
 }
+
+/* What I do Section */
+
+#what-i-do-des {
+    padding: 0 150px;
+
+}
+
+.skil-container {
+    display: flex;
+}
+
+.skill {
+    margin: 4px;
+    border-radius: 5px;
+    background: #FFF;
+    background-color: #FFF8F3;
+    padding: 33px;
+}
