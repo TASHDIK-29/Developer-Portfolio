@@ -14,7 +14,8 @@ body {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding: 18px 35px;
+    padding: 18px 50px;
+    /* margin: 40px; */
 }
 
 /* Nav Related Styles */
@@ -194,9 +195,7 @@ main section {
     gap: 20px;
 }
 
-.resume-colum-item {
-    
-}
+.resume-colum-item {}
 
 .resume-col-item-title {
     color: #474747;
@@ -213,18 +212,53 @@ main section {
 }
 
 .item-description {
-    color:  #757575;
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
     padding: 0px 50px 3px 3px;
     /* 175% */
 }
 
-.resume-container hr{
+.resume-container hr {
     margin: 40px 10px;
 }
 
-.dwonload-cv{
+.dwonload-cv {
     text-align: center;
     margin-top: 50px;
 }
+
+
+/* Footer style */
+
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+
+.social-links{
+    margin-right: 20px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"],
+textarea {
+    display: block;
+    margin: 25px;
+    padding: 10px 10px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    background:  #FFF;
+    border: none;
+    width: 100%;
+    /* 175% */
+}
+
