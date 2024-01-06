@@ -96,6 +96,10 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* About section styles */
 
 .about {
@@ -159,12 +163,28 @@ main {
 
 .skil-container {
     display: flex;
+    gap: 24px;
 }
 
 .skill {
     margin: 4px;
     border-radius: 5px;
     background: #FFF;
-    background-color: #FFF8F3;
+    /* background-color: #FFF8F3; */
     padding: 33px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-description {
+    color: #757575;
+    font-weight: 400;
+}
+
+/* Resume section styles */
+
+.resume-colum-title {
+    color:  #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
